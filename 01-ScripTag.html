@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mis 2 primeros Ejercicios simples</h1>
+    <p id="demo"></p>
+    <script>
+        j = [2,5,9,1]
+        var numMax = 0;
+        var numPos;
+        for (let i = 0; i < j.length; i++) {
+            if(j[i]>numMax){
+                numMax=j[i];
+                numPos=i+1;
+            }
+        }
+        document.write("El maximo numero del array es: "+numMax+" y su posicion es: "+numPos);
+        
+    </script>
+    
+</body>
+</html>
